@@ -3,16 +3,17 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace RadianceButLessBS.Content.Items
-{ 
-	// This is a basic item template.
-	// Please see tModLoader's ExampleMod for every other example:
-	// https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
-	public class IDGBlade : ModItem
+{
+    // This is a basic item template.
+    // Please see tModLoader's ExampleMod for every other example:
+    // https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
+    [Autoload(false)]
+    public class IDGBlade : ModItem
 	{
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.RadianceButLessBS.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.damage = 50;
+			Item.damage = 5000;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
@@ -33,5 +34,5 @@ namespace RadianceButLessBS.Content.Items
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}
-	}
+    }
 }
