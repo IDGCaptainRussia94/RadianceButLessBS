@@ -1,0 +1,6 @@
+A very small mod that adds some extra configs to nerf some of the very difficult aspects of Stellar's Radiance mod, made in an afternoon after a strong desire to make it more playable in modpacks.
+These include:
+
+~Disable Ruin from being applied on hit
+~Disable Radiance's gravity effects
+~Disable Radiance's damage softcap

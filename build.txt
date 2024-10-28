@@ -1,0 +1,5 @@
+displayName = RadianceDebuff
+author = IDGCaptainRussia94
+version = 0.1
+
+modReferences = Radiance@4.0.4.5

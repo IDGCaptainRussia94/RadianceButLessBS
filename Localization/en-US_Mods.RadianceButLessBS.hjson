@@ -1,0 +1,34 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	IDGBlade: {
+		DisplayName: I D G Blade
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+}
+
+Configs: {
+	RadWorld: {
+		DisplayName: Radiance Nerf
+
+		disableRuin: {
+			Label: Disable Ruin
+			Tooltip: Prevents the player from receiving the Ruin debuff
+		}
+
+		disableGravity: {
+			Label: Disable Gravity
+			Tooltip: Disables the gravity effect of Radiance's attacks
+		}
+
+		disableArmor: {
+			Label: Disable Damage Softcap
+			Tooltip: Disables the damage softcape that limits Radiance's damage taken
+		}
+	}
+}
